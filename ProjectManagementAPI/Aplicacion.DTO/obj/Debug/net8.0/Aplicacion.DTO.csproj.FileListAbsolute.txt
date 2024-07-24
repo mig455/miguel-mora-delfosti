@@ -1,0 +1,11 @@
+E:\delfosti\ProjectManagementAPI\Aplicacion.DTO\bin\Debug\net8.0\Aplicacion.DTO.deps.json
+E:\delfosti\ProjectManagementAPI\Aplicacion.DTO\bin\Debug\net8.0\Aplicacion.DTO.dll
+E:\delfosti\ProjectManagementAPI\Aplicacion.DTO\bin\Debug\net8.0\Aplicacion.DTO.pdb
+E:\delfosti\ProjectManagementAPI\Aplicacion.DTO\obj\Debug\net8.0\Aplicacion.DTO.GeneratedMSBuildEditorConfig.editorconfig
+E:\delfosti\ProjectManagementAPI\Aplicacion.DTO\obj\Debug\net8.0\Aplicacion.DTO.AssemblyInfoInputs.cache
+E:\delfosti\ProjectManagementAPI\Aplicacion.DTO\obj\Debug\net8.0\Aplicacion.DTO.AssemblyInfo.cs
+E:\delfosti\ProjectManagementAPI\Aplicacion.DTO\obj\Debug\net8.0\Aplicacion.DTO.csproj.CoreCompileInputs.cache
+E:\delfosti\ProjectManagementAPI\Aplicacion.DTO\obj\Debug\net8.0\Aplicacion.DTO.dll
+E:\delfosti\ProjectManagementAPI\Aplicacion.DTO\obj\Debug\net8.0\refint\Aplicacion.DTO.dll
+E:\delfosti\ProjectManagementAPI\Aplicacion.DTO\obj\Debug\net8.0\Aplicacion.DTO.pdb
+E:\delfosti\ProjectManagementAPI\Aplicacion.DTO\obj\Debug\net8.0\ref\Aplicacion.DTO.dll

@@ -1,0 +1,541 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\delfosti\\ProjectManagementAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F29D9D-2B30-460A-9E7C-AF22D2A8F298}|Aplicacion.Servicio\\Aplicacion.Servicio.csproj|e:\\delfosti\\projectmanagementapi\\aplicacion.servicio\\scode\\serviciosimpl\\tareaserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F29D9D-2B30-460A-9E7C-AF22D2A8F298}|Aplicacion.Servicio\\Aplicacion.Servicio.csproj|solutionrelative:aplicacion.servicio\\scode\\serviciosimpl\\tareaserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE852AC0-59A0-4F97-8269-7A9215189AAC}|ProjectManagementAPI\\ProjectManagementAPI.csproj|e:\\delfosti\\projectmanagementapi\\projectmanagementapi\\controllers\\tareacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE852AC0-59A0-4F97-8269-7A9215189AAC}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\controllers\\tareacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A6FD0B-0088-4471-932B-930F6C3607E2}|Aplicacion.DTO\\Aplicacion.DTO.csproj|e:\\delfosti\\projectmanagementapi\\aplicacion.dto\\scode\\tareadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A6FD0B-0088-4471-932B-930F6C3607E2}|Aplicacion.DTO\\Aplicacion.DTO.csproj|solutionrelative:aplicacion.dto\\scode\\tareadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE852AC0-59A0-4F97-8269-7A9215189AAC}|ProjectManagementAPI\\ProjectManagementAPI.csproj|e:\\delfosti\\projectmanagementapi\\projectmanagementapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE852AC0-59A0-4F97-8269-7A9215189AAC}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F29D9D-2B30-460A-9E7C-AF22D2A8F298}|Aplicacion.Servicio\\Aplicacion.Servicio.csproj|e:\\delfosti\\projectmanagementapi\\aplicacion.servicio\\scode\\iservicios\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F29D9D-2B30-460A-9E7C-AF22D2A8F298}|Aplicacion.Servicio\\Aplicacion.Servicio.csproj|solutionrelative:aplicacion.servicio\\scode\\iservicios\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A6FD0B-0088-4471-932B-930F6C3607E2}|Aplicacion.DTO\\Aplicacion.DTO.csproj|e:\\delfosti\\projectmanagementapi\\aplicacion.dto\\scode\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A6FD0B-0088-4471-932B-930F6C3607E2}|Aplicacion.DTO\\Aplicacion.DTO.csproj|solutionrelative:aplicacion.dto\\scode\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F29D9D-2B30-460A-9E7C-AF22D2A8F298}|Aplicacion.Servicio\\Aplicacion.Servicio.csproj|e:\\delfosti\\projectmanagementapi\\aplicacion.servicio\\scode\\iservicios\\itareaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F29D9D-2B30-460A-9E7C-AF22D2A8F298}|Aplicacion.Servicio\\Aplicacion.Servicio.csproj|solutionrelative:aplicacion.servicio\\scode\\iservicios\\itareaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F29D9D-2B30-460A-9E7C-AF22D2A8F298}|Aplicacion.Servicio\\Aplicacion.Servicio.csproj|e:\\delfosti\\projectmanagementapi\\aplicacion.servicio\\scode\\serviciosimpl\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F29D9D-2B30-460A-9E7C-AF22D2A8F298}|Aplicacion.Servicio\\Aplicacion.Servicio.csproj|solutionrelative:aplicacion.servicio\\scode\\serviciosimpl\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F29D9D-2B30-460A-9E7C-AF22D2A8F298}|Aplicacion.Servicio\\Aplicacion.Servicio.csproj|e:\\delfosti\\projectmanagementapi\\aplicacion.servicio\\scode\\serviciosimpl\\tokenserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F29D9D-2B30-460A-9E7C-AF22D2A8F298}|Aplicacion.Servicio\\Aplicacion.Servicio.csproj|solutionrelative:aplicacion.servicio\\scode\\serviciosimpl\\tokenserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1E5AEC-2FF0-478B-90F5-21B4A9BF670E}|Persistencia\\Persistencia.csproj|e:\\delfosti\\projectmanagementapi\\persistencia\\entidades\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1E5AEC-2FF0-478B-90F5-21B4A9BF670E}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\entidades\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A70A88-4B13-4CA9-BBF2-AC715BBBFA73}|Repositorio\\Repositorio.csproj|e:\\delfosti\\projectmanagementapi\\repositorio\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A70A88-4B13-4CA9-BBF2-AC715BBBFA73}|Repositorio\\Repositorio.csproj|solutionrelative:repositorio\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1E5AEC-2FF0-478B-90F5-21B4A9BF670E}|Persistencia\\Persistencia.csproj|e:\\delfosti\\projectmanagementapi\\persistencia\\entidades\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1E5AEC-2FF0-478B-90F5-21B4A9BF670E}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\entidades\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE852AC0-59A0-4F97-8269-7A9215189AAC}|ProjectManagementAPI\\ProjectManagementAPI.csproj|e:\\delfosti\\projectmanagementapi\\projectmanagementapi\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE852AC0-59A0-4F97-8269-7A9215189AAC}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE852AC0-59A0-4F97-8269-7A9215189AAC}|ProjectManagementAPI\\ProjectManagementAPI.csproj|e:\\delfosti\\projectmanagementapi\\projectmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE852AC0-59A0-4F97-8269-7A9215189AAC}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A70A88-4B13-4CA9-BBF2-AC715BBBFA73}|Repositorio\\Repositorio.csproj|e:\\delfosti\\projectmanagementapi\\repositorio\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A70A88-4B13-4CA9-BBF2-AC715BBBFA73}|Repositorio\\Repositorio.csproj|solutionrelative:repositorio\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A6FD0B-0088-4471-932B-930F6C3607E2}|Aplicacion.DTO\\Aplicacion.DTO.csproj|e:\\delfosti\\projectmanagementapi\\aplicacion.dto\\scode\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A6FD0B-0088-4471-932B-930F6C3607E2}|Aplicacion.DTO\\Aplicacion.DTO.csproj|solutionrelative:aplicacion.dto\\scode\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE852AC0-59A0-4F97-8269-7A9215189AAC}|ProjectManagementAPI\\ProjectManagementAPI.csproj|e:\\delfosti\\projectmanagementapi\\projectmanagementapi\\helpers\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE852AC0-59A0-4F97-8269-7A9215189AAC}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\helpers\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A6FD0B-0088-4471-932B-930F6C3607E2}|Aplicacion.DTO\\Aplicacion.DTO.csproj|e:\\delfosti\\projectmanagementapi\\aplicacion.dto\\scode\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A6FD0B-0088-4471-932B-930F6C3607E2}|Aplicacion.DTO\\Aplicacion.DTO.csproj|solutionrelative:aplicacion.dto\\scode\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F29D9D-2B30-460A-9E7C-AF22D2A8F298}|Aplicacion.Servicio\\Aplicacion.Servicio.csproj|e:\\delfosti\\projectmanagementapi\\aplicacion.servicio\\scode\\iservicios\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F29D9D-2B30-460A-9E7C-AF22D2A8F298}|Aplicacion.Servicio\\Aplicacion.Servicio.csproj|solutionrelative:aplicacion.servicio\\scode\\iservicios\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE852AC0-59A0-4F97-8269-7A9215189AAC}|ProjectManagementAPI\\ProjectManagementAPI.csproj|e:\\delfosti\\projectmanagementapi\\projectmanagementapi\\helpers\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE852AC0-59A0-4F97-8269-7A9215189AAC}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\helpers\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE852AC0-59A0-4F97-8269-7A9215189AAC}|ProjectManagementAPI\\ProjectManagementAPI.csproj|e:\\delfosti\\projectmanagementapi\\projectmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE852AC0-59A0-4F97-8269-7A9215189AAC}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE852AC0-59A0-4F97-8269-7A9215189AAC}|ProjectManagementAPI\\ProjectManagementAPI.csproj|e:\\delfosti\\projectmanagementapi\\projectmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE852AC0-59A0-4F97-8269-7A9215189AAC}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A6FD0B-0088-4471-932B-930F6C3607E2}|Aplicacion.DTO\\Aplicacion.DTO.csproj|e:\\delfosti\\projectmanagementapi\\aplicacion.dto\\scode\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A6FD0B-0088-4471-932B-930F6C3607E2}|Aplicacion.DTO\\Aplicacion.DTO.csproj|solutionrelative:aplicacion.dto\\scode\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1E5AEC-2FF0-478B-90F5-21B4A9BF670E}|Persistencia\\Persistencia.csproj|e:\\delfosti\\projectmanagementapi\\persistencia\\entidades\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1E5AEC-2FF0-478B-90F5-21B4A9BF670E}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\entidades\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F29D9D-2B30-460A-9E7C-AF22D2A8F298}|Aplicacion.Servicio\\Aplicacion.Servicio.csproj|e:\\delfosti\\projectmanagementapi\\aplicacion.servicio\\scode\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F29D9D-2B30-460A-9E7C-AF22D2A8F298}|Aplicacion.Servicio\\Aplicacion.Servicio.csproj|solutionrelative:aplicacion.servicio\\scode\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1E5AEC-2FF0-478B-90F5-21B4A9BF670E}|Persistencia\\Persistencia.csproj|e:\\delfosti\\projectmanagementapi\\persistencia\\modelos\\projectmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1E5AEC-2FF0-478B-90F5-21B4A9BF670E}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\modelos\\projectmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A70A88-4B13-4CA9-BBF2-AC715BBBFA73}|Repositorio\\Repositorio.csproj|e:\\delfosti\\projectmanagementapi\\repositorio\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A70A88-4B13-4CA9-BBF2-AC715BBBFA73}|Repositorio\\Repositorio.csproj|solutionrelative:repositorio\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A70A88-4B13-4CA9-BBF2-AC715BBBFA73}|Repositorio\\Repositorio.csproj|e:\\delfosti\\projectmanagementapi\\repositorio\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A70A88-4B13-4CA9-BBF2-AC715BBBFA73}|Repositorio\\Repositorio.csproj|solutionrelative:repositorio\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD32BDB-87DB-4D8A-985E-41D40FA65AF6}|Aplicacion.Base\\Aplicacion.Base.csproj|e:\\delfosti\\projectmanagementapi\\aplicacion.base\\scode\\baseentidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD32BDB-87DB-4D8A-985E-41D40FA65AF6}|Aplicacion.Base\\Aplicacion.Base.csproj|solutionrelative:aplicacion.base\\scode\\baseentidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1E5AEC-2FF0-478B-90F5-21B4A9BF670E}|Persistencia\\Persistencia.csproj|e:\\delfosti\\projectmanagementapi\\persistencia\\entidades\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1E5AEC-2FF0-478B-90F5-21B4A9BF670E}|Persistencia\\Persistencia.csproj|solutionrelative:persistencia\\entidades\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE852AC0-59A0-4F97-8269-7A9215189AAC}|ProjectManagementAPI\\ProjectManagementAPI.csproj|e:\\delfosti\\projectmanagementapi\\projectmanagementapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE852AC0-59A0-4F97-8269-7A9215189AAC}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F29D9D-2B30-460A-9E7C-AF22D2A8F298}|Aplicacion.Servicio\\Aplicacion.Servicio.csproj|e:\\delfosti\\projectmanagementapi\\aplicacion.servicio\\scode\\iservicios\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F29D9D-2B30-460A-9E7C-AF22D2A8F298}|Aplicacion.Servicio\\Aplicacion.Servicio.csproj|solutionrelative:aplicacion.servicio\\scode\\iservicios\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Persistencia\\Entidades\\User.cs",
+              "RelativeDocumentMoniker": "Persistencia\\Entidades\\User.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Persistencia\\Entidades\\User.cs",
+              "RelativeToolTip": "Persistencia\\Entidades\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T00:25:10.536Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Role.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Persistencia\\Entidades\\Role.cs",
+              "RelativeDocumentMoniker": "Persistencia\\Entidades\\Role.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Persistencia\\Entidades\\Role.cs",
+              "RelativeToolTip": "Persistencia\\Entidades\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T00:01:41.003Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Repositorio\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repositorio\\UnitOfWork\\IUnitOfWork.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Repositorio\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeToolTip": "Repositorio\\UnitOfWork\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAQwBQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T23:55:34.388Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\ProjectManagementAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Program.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\ProjectManagementAPI\\Program.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Program.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAcwHcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T23:24:46.207Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\ProjectManagementAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\appsettings.json",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\ProjectManagementAPI\\appsettings.json",
+              "RelativeToolTip": "ProjectManagementAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-22T00:47:04.137Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\ProjectManagementAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\ProjectManagementAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAB8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T01:09:21.125Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TareaDto.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.DTO\\SCode\\TareaDto.cs",
+              "RelativeDocumentMoniker": "Aplicacion.DTO\\SCode\\TareaDto.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.DTO\\SCode\\TareaDto.cs",
+              "RelativeToolTip": "Aplicacion.DTO\\SCode\\TareaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T01:24:46.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TareaController.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\ProjectManagementAPI\\Controllers\\TareaController.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\TareaController.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\ProjectManagementAPI\\Controllers\\TareaController.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Controllers\\TareaController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAkwFsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T01:11:05.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.Servicio\\SCode\\IServicios\\IUserService.cs",
+              "RelativeDocumentMoniker": "Aplicacion.Servicio\\SCode\\IServicios\\IUserService.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.Servicio\\SCode\\IServicios\\IUserService.cs",
+              "RelativeToolTip": "Aplicacion.Servicio\\SCode\\IServicios\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T01:32:51.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.DTO\\SCode\\UserDto.cs",
+              "RelativeDocumentMoniker": "Aplicacion.DTO\\SCode\\UserDto.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.DTO\\SCode\\UserDto.cs",
+              "RelativeToolTip": "Aplicacion.DTO\\SCode\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T01:21:52.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TareaServiceImpl.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.Servicio\\SCode\\ServiciosImpl\\TareaServiceImpl.cs",
+              "RelativeDocumentMoniker": "Aplicacion.Servicio\\SCode\\ServiciosImpl\\TareaServiceImpl.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.Servicio\\SCode\\ServiciosImpl\\TareaServiceImpl.cs",
+              "RelativeToolTip": "Aplicacion.Servicio\\SCode\\ServiciosImpl\\TareaServiceImpl.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAkwEIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T02:53:00.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Repositorio\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "Repositorio\\Repository\\Repository.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Repositorio\\Repository\\Repository.cs",
+              "RelativeToolTip": "Repositorio\\Repository\\Repository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwCMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T03:37:02.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITareaService.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.Servicio\\SCode\\IServicios\\ITareaService.cs",
+              "RelativeDocumentMoniker": "Aplicacion.Servicio\\SCode\\IServicios\\ITareaService.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.Servicio\\SCode\\IServicios\\ITareaService.cs",
+              "RelativeToolTip": "Aplicacion.Servicio\\SCode\\IServicios\\ITareaService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwBAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:34:26.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TokenServiceImpl.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.Servicio\\SCode\\ServiciosImpl\\TokenServiceImpl.cs",
+              "RelativeDocumentMoniker": "Aplicacion.Servicio\\SCode\\ServiciosImpl\\TokenServiceImpl.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.Servicio\\SCode\\ServiciosImpl\\TokenServiceImpl.cs",
+              "RelativeToolTip": "Aplicacion.Servicio\\SCode\\ServiciosImpl\\TokenServiceImpl.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T02:34:15.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Task.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Persistencia\\Entidades\\Task.cs",
+              "RelativeDocumentMoniker": "Persistencia\\Entidades\\Task.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Persistencia\\Entidades\\Task.cs",
+              "RelativeToolTip": "Persistencia\\Entidades\\Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T03:33:37.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserServiceImpl.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.Servicio\\SCode\\ServiciosImpl\\UserServiceImpl.cs",
+              "RelativeDocumentMoniker": "Aplicacion.Servicio\\SCode\\ServiciosImpl\\UserServiceImpl.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.Servicio\\SCode\\ServiciosImpl\\UserServiceImpl.cs",
+              "RelativeToolTip": "Aplicacion.Servicio\\SCode\\ServiciosImpl\\UserServiceImpl.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAMwIwAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T03:44:18.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Project.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Persistencia\\Entidades\\Project.cs",
+              "RelativeDocumentMoniker": "Persistencia\\Entidades\\Project.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Persistencia\\Entidades\\Project.cs",
+              "RelativeToolTip": "Persistencia\\Entidades\\Project.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T00:26:59.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\ProjectManagementAPI\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\ProjectController.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\ProjectManagementAPI\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Controllers\\ProjectController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T01:10:22.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\ProjectManagementAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\ProjectManagementAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T02:33:13.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProjectDto.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.DTO\\SCode\\ProjectDto.cs",
+              "RelativeDocumentMoniker": "Aplicacion.DTO\\SCode\\ProjectDto.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.DTO\\SCode\\ProjectDto.cs",
+              "RelativeToolTip": "Aplicacion.DTO\\SCode\\ProjectDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T01:23:06.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\ProjectManagementAPI\\Helpers\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Helpers\\ExceptionMiddleware.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\ProjectManagementAPI\\Helpers\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Helpers\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T02:12:33.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.DTO\\SCode\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Aplicacion.DTO\\SCode\\LoginDto.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.DTO\\SCode\\LoginDto.cs",
+              "RelativeToolTip": "Aplicacion.DTO\\SCode\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T02:43:12.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.Servicio\\SCode\\IServicios\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Aplicacion.Servicio\\SCode\\IServicios\\ITokenService.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.Servicio\\SCode\\IServicios\\ITokenService.cs",
+              "RelativeToolTip": "Aplicacion.Servicio\\SCode\\IServicios\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T02:33:45.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\ProjectManagementAPI\\Helpers\\SeedData.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Helpers\\SeedData.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\ProjectManagementAPI\\Helpers\\SeedData.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Helpers\\SeedData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T01:16:24.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.DTO\\SCode\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Aplicacion.DTO\\SCode\\JwtSettings.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.DTO\\SCode\\JwtSettings.cs",
+              "RelativeToolTip": "Aplicacion.DTO\\SCode\\JwtSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T01:52:58.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProjectManagementContext.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Persistencia\\Modelos\\ProjectManagementContext.cs",
+              "RelativeDocumentMoniker": "Persistencia\\Modelos\\ProjectManagementContext.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Persistencia\\Modelos\\ProjectManagementContext.cs",
+              "RelativeToolTip": "Persistencia\\Modelos\\ProjectManagementContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T00:37:11.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BaseEntidad.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.Base\\SCode\\BaseEntidad.cs",
+              "RelativeDocumentMoniker": "Aplicacion.Base\\SCode\\BaseEntidad.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.Base\\SCode\\BaseEntidad.cs",
+              "RelativeToolTip": "Aplicacion.Base\\SCode\\BaseEntidad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T00:04:10.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.Servicio\\SCode\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Aplicacion.Servicio\\SCode\\MappingProfile.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.Servicio\\SCode\\MappingProfile.cs",
+              "RelativeToolTip": "Aplicacion.Servicio\\SCode\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T01:47:49.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Repositorio\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "Repositorio\\Repository\\IRepository.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Repositorio\\Repository\\IRepository.cs",
+              "RelativeToolTip": "Repositorio\\Repository\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T01:04:40.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\ProjectManagementAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\ProjectManagementAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T03:34:28.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Repositorio\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repositorio\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Repositorio\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "Repositorio\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T01:07:30.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IProjectService.cs",
+              "DocumentMoniker": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.Servicio\\SCode\\IServicios\\IProjectService.cs",
+              "RelativeDocumentMoniker": "Aplicacion.Servicio\\SCode\\IServicios\\IProjectService.cs",
+              "ToolTip": "E:\\delfosti\\ProjectManagementAPI\\Aplicacion.Servicio\\SCode\\IServicios\\IProjectService.cs",
+              "RelativeToolTip": "Aplicacion.Servicio\\SCode\\IServicios\\IProjectService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T01:33:37.833Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

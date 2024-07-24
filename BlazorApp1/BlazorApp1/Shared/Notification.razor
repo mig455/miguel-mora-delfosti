@@ -1,0 +1,42 @@
+﻿@using BlazorApp1.Services
+@inject NotificationService NotificationService
+
+@code {
+    private string message;
+    private string alertType;
+
+    protected override void OnInitialized()
+    {
+        NotificationService.OnNotify += ShowNotification;
+    }
+
+    private void ShowNotification(string message, string alertType)
+    {
+        this.message = message;
+        this.alertType = alertType;
+        StateHasChanged();
+    }
+
+    private void Hide()
+    {
+        message = string.Empty;
+        StateHasChanged();
+    }
+}
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <div class="alert @alertType" role="alert" style="text-align: center;
+    position: fixed;
+    top: 20px;
+    left: calc(50% - 250px);
+    width: 500px;
+    z-index: 9999;
+    border-radius: 27px;
+    padding: 5px;">
+        @message
+        <a type="button" class="close" aria-label="Close" @onclick="Hide">
+            <span aria-hidden="true">&times;</span>
+        </a>
+    </div>
+}

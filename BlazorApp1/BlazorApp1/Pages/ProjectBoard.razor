@@ -1,0 +1,124 @@
+﻿@page "/projects"
+@attribute [Authorize]
+@using BlazorApp1.Models
+@using BlazorApp1.Services
+@using Blazored.LocalStorage
+@inject ApiService ApiService
+@inject NavigationManager NavigationManager
+@inject ILocalStorageService LocalStorageService
+<HeadContent>
+    <link href="css/projects.css" rel="stylesheet" />
+</HeadContent>
+
+@if (!isAuthenticated)
+{
+    <div class="alert alert-danger" role="alert">
+        No tienes acceso. Redirigiendo a la página de login...
+    </div>
+}
+else
+{
+
+    @if (projects == null)
+    {
+        <p>Loading...</p>
+    }
+    else
+    {
+        <div class="projects-container">
+            <h3 class="projects-title">Proyectos</h3>
+            @foreach (var project in projects)
+            {
+                <div class="project-card @((project.Id == selectedProjectId) ? "selected-card" : "")" @key="project.Id" @onclick="() => RefreshLoadTasks(project.Id)">
+                    <div class="project-card-title">@project.Name</div>
+                    <div class="project-card-description">@project.Description</div>
+                </div>
+            }
+           
+
+            @if (isAdmin)
+            {
+                <button class="btn-add-project"  @onclick="ShowAddProjectModal">Agregar Tarea</button>
+            }
+
+            <div class="task-board row">
+                @foreach (var task in tasks)
+                {
+                    <div class="card col-12 col-md-4 col-lg-4" style="margin: 10px;" @onclick="() => ShowTaskModal(task)">
+                        <div class="card-body">
+                            <h5 class="card-title">@task.Title</h5>
+                            <p class="card-text">@task.Description</p>
+                            <p>@task.Status</p>
+                        </div>
+                    </div>
+                }
+            </div>
+            
+        </div>
+
+    }
+
+    <TaskModal @ref="taskModal" OnTaskUpdated="reloadTask" />
+}
+
+
+@code {
+    private bool isAuthenticated = true;
+    private List<Project> projects = new List<Project>();
+    private Tarea[] tasks = new Tarea[0];
+    private UserDto usuarioActual = new UserDto();
+    private int selectedProjectId;
+    private TaskModal taskModal;
+    private bool isAdmin = false; 
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        var token = await LocalStorageService.GetItemAsync<string>("authToken");
+        projects = await ApiService.GetProjects();
+        usuarioActual = await ApiService.GetUserById();
+        if(usuarioActual != null && usuarioActual.RoleId==1)
+        {
+            isAdmin = true;
+        }
+        if (string.IsNullOrEmpty(token))
+        {
+            isAuthenticated = false;
+            NavigationManager.NavigateTo("/");
+        }
+        if (projects.Any())
+        {
+            selectedProjectId = projects.First().Id;
+            await LoadTasks();
+        }
+    }
+
+    private async Task RefreshLoadTasks(int Id)
+    {
+
+        selectedProjectId = Id;
+        await LoadTasks();
+    }
+    
+    private async Task reloadTask()
+    {
+        projects = await ApiService.GetProjects();
+        tasks = await ApiService.GetTasks(selectedProjectId);
+    }
+    private async Task LoadTasks()
+    {
+
+        tasks = await ApiService.GetTasks(selectedProjectId);
+    }
+
+    private void ShowTaskModal(Tarea task)
+    {
+        taskModal.Show(task);
+    }
+    private void ShowAddProjectModal()
+    {
+        var newtask = new Tarea();
+        taskModal.Show(newtask);
+        // Lógica para mostrar un modal para agregar proyectos
+    }
+}

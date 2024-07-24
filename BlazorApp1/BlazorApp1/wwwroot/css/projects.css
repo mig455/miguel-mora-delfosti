@@ -1,0 +1,56 @@
+﻿
+.projects-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.projects-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.project-card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.project-card-description {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.btn-add-project {
+    display: block;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+    .btn-add-project:hover {
+        background-color: #218838;
+    }
+
+.selected-card {
+    border: 2px solid blue; 
+    background-color: #f0f8ff;
+}

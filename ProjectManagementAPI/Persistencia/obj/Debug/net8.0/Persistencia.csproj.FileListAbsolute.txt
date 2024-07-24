@@ -1,0 +1,17 @@
+E:\delfosti\ProjectManagementAPI\Persistencia\bin\Debug\net8.0\Persistencia.deps.json
+E:\delfosti\ProjectManagementAPI\Persistencia\bin\Debug\net8.0\Persistencia.runtimeconfig.json
+E:\delfosti\ProjectManagementAPI\Persistencia\bin\Debug\net8.0\Persistencia.dll
+E:\delfosti\ProjectManagementAPI\Persistencia\bin\Debug\net8.0\Persistencia.pdb
+E:\delfosti\ProjectManagementAPI\Persistencia\bin\Debug\net8.0\Aplicacion.Base.dll
+E:\delfosti\ProjectManagementAPI\Persistencia\bin\Debug\net8.0\Aplicacion.Base.pdb
+E:\delfosti\ProjectManagementAPI\Persistencia\obj\Debug\net8.0\Persistencia.csproj.AssemblyReference.cache
+E:\delfosti\ProjectManagementAPI\Persistencia\obj\Debug\net8.0\Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+E:\delfosti\ProjectManagementAPI\Persistencia\obj\Debug\net8.0\Persistencia.AssemblyInfoInputs.cache
+E:\delfosti\ProjectManagementAPI\Persistencia\obj\Debug\net8.0\Persistencia.AssemblyInfo.cs
+E:\delfosti\ProjectManagementAPI\Persistencia\obj\Debug\net8.0\Persistencia.csproj.CoreCompileInputs.cache
+E:\delfosti\ProjectManagementAPI\Persistencia\obj\Debug\net8.0\Persiste.7F7D6998.Up2Date
+E:\delfosti\ProjectManagementAPI\Persistencia\obj\Debug\net8.0\Persistencia.dll
+E:\delfosti\ProjectManagementAPI\Persistencia\obj\Debug\net8.0\refint\Persistencia.dll
+E:\delfosti\ProjectManagementAPI\Persistencia\obj\Debug\net8.0\Persistencia.pdb
+E:\delfosti\ProjectManagementAPI\Persistencia\obj\Debug\net8.0\Persistencia.genruntimeconfig.cache
+E:\delfosti\ProjectManagementAPI\Persistencia\obj\Debug\net8.0\ref\Persistencia.dll

@@ -1,0 +1,11 @@
+E:\delfosti\ProjectManagementAPI\Aplicacion.Base\bin\Debug\net8.0\Aplicacion.Base.deps.json
+E:\delfosti\ProjectManagementAPI\Aplicacion.Base\bin\Debug\net8.0\Aplicacion.Base.dll
+E:\delfosti\ProjectManagementAPI\Aplicacion.Base\bin\Debug\net8.0\Aplicacion.Base.pdb
+E:\delfosti\ProjectManagementAPI\Aplicacion.Base\obj\Debug\net8.0\Aplicacion.Base.GeneratedMSBuildEditorConfig.editorconfig
+E:\delfosti\ProjectManagementAPI\Aplicacion.Base\obj\Debug\net8.0\Aplicacion.Base.AssemblyInfoInputs.cache
+E:\delfosti\ProjectManagementAPI\Aplicacion.Base\obj\Debug\net8.0\Aplicacion.Base.AssemblyInfo.cs
+E:\delfosti\ProjectManagementAPI\Aplicacion.Base\obj\Debug\net8.0\Aplicacion.Base.csproj.CoreCompileInputs.cache
+E:\delfosti\ProjectManagementAPI\Aplicacion.Base\obj\Debug\net8.0\Aplicacion.Base.dll
+E:\delfosti\ProjectManagementAPI\Aplicacion.Base\obj\Debug\net8.0\refint\Aplicacion.Base.dll
+E:\delfosti\ProjectManagementAPI\Aplicacion.Base\obj\Debug\net8.0\Aplicacion.Base.pdb
+E:\delfosti\ProjectManagementAPI\Aplicacion.Base\obj\Debug\net8.0\ref\Aplicacion.Base.dll

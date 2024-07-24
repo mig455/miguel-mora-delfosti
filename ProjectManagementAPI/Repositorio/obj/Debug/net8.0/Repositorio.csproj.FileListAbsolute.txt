@@ -1,0 +1,17 @@
+E:\delfosti\ProjectManagementAPI\Repositorio\obj\Debug\net8.0\Repositorio.csproj.AssemblyReference.cache
+E:\delfosti\ProjectManagementAPI\Repositorio\obj\Debug\net8.0\Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+E:\delfosti\ProjectManagementAPI\Repositorio\obj\Debug\net8.0\Repositorio.AssemblyInfoInputs.cache
+E:\delfosti\ProjectManagementAPI\Repositorio\obj\Debug\net8.0\Repositorio.AssemblyInfo.cs
+E:\delfosti\ProjectManagementAPI\Repositorio\obj\Debug\net8.0\Repositorio.csproj.CoreCompileInputs.cache
+E:\delfosti\ProjectManagementAPI\Repositorio\bin\Debug\net8.0\Repositorio.deps.json
+E:\delfosti\ProjectManagementAPI\Repositorio\bin\Debug\net8.0\Repositorio.dll
+E:\delfosti\ProjectManagementAPI\Repositorio\bin\Debug\net8.0\Repositorio.pdb
+E:\delfosti\ProjectManagementAPI\Repositorio\bin\Debug\net8.0\Aplicacion.Base.dll
+E:\delfosti\ProjectManagementAPI\Repositorio\bin\Debug\net8.0\Persistencia.dll
+E:\delfosti\ProjectManagementAPI\Repositorio\bin\Debug\net8.0\Persistencia.pdb
+E:\delfosti\ProjectManagementAPI\Repositorio\bin\Debug\net8.0\Aplicacion.Base.pdb
+E:\delfosti\ProjectManagementAPI\Repositorio\obj\Debug\net8.0\Reposito.F4C96B80.Up2Date
+E:\delfosti\ProjectManagementAPI\Repositorio\obj\Debug\net8.0\Repositorio.dll
+E:\delfosti\ProjectManagementAPI\Repositorio\obj\Debug\net8.0\refint\Repositorio.dll
+E:\delfosti\ProjectManagementAPI\Repositorio\obj\Debug\net8.0\Repositorio.pdb
+E:\delfosti\ProjectManagementAPI\Repositorio\obj\Debug\net8.0\ref\Repositorio.dll

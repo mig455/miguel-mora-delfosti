@@ -1,0 +1,42 @@
+﻿@using BlazorApp1.Services
+@inherits LayoutComponentBase
+@inject NavigationManager Navigation
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+<PageTitle>My App</PageTitle>
+
+<AuthorizeView>
+    <Authorized>
+        <main>
+            <div class="top-row px-4">
+                <button class="btn btn-secondary" @onclick="Logout">Logout</button>
+            </div>
+
+        </main>
+
+    </Authorized>
+    <NotAuthorized>
+    </NotAuthorized>
+</AuthorizeView>
+
+<Notification />
+<div class="container">
+    @Body
+</div>
+
+@code {
+    
+    private async Task Logout()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.Identity.IsAuthenticated)
+        {
+            // Logic to clear authentication token
+            await ((CustomAuthenticationStateProvider)AuthenticationStateProvider).LogoutAsync(); // Assume this method exists in your provider
+            Navigation.NavigateTo("/");
+        }
+    }
+
+}

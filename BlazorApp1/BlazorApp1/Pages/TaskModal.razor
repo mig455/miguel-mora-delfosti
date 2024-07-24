@@ -1,0 +1,150 @@
+﻿@using BlazorApp1.Services
+@using BlazorApp1.Models
+@inject ApiService ApiService
+@inject AutocompleteService AutocompleteService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JS
+<div class="modal" id="taskModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    @if (task.Id == 0)
+                    {
+                        <b>Agregar tarea</b>
+                    }
+                    else
+                    {
+                        <b>Editar tarea</b>
+                    }</h5>
+                <button type="button" class="close" @onclick="Hide">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                @if (task.Id==0)
+                {
+
+                    <div class="form-group">
+                        <label for="username">Nombre de la tarea</label>
+                        <InputText class="form-control" @bind-Value="task.Title" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="username">Descripcion de la tarea</label>
+                        <InputText class="form-control" @bind-Value="task.Description" />
+                    </div>
+                    <div class="form-group">
+                        <label for="autocompleteInput">Proyecto:</label>
+                        <input type="text" class="form-control" id="autocompleteInput" @bind="searchQuery" @oninput="OnInput" placeholder="Type to search...">
+                        <div id="autocompleteList" class="list-group mt-2" style="display: @(showSuggestions ? "block" : "none")">
+                            @foreach (var item in suggestions)
+                            {
+                                <a class="list-group-item list-group-item-action" @onclick="() => SelectSuggestion(item)">
+                                    @item
+                                </a>
+                            }
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <p>@task.Title</p>
+                    <p>@task.Description</p>
+                    <select @bind="task.Status">
+                        <option value="Pendiente">Pendiente</option>
+                        <option value="En Progreso">En Progreso</option>
+                        <option value="Completado">Completado</option>
+                    </select>
+                }
+
+                <!-- Agrega más campos según sea necesario -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" @onclick="HandleSubmit">
+                    @if (task.Id == 0)
+                    {
+                        <b>Guardar tarea</b>
+                    }
+                    else
+                    {
+                        <b>Editar tarea</b>
+                    }
+                </button>
+                <button type="button" class="btn btn-secondary" @onclick="Hide">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public EventCallback OnTaskUpdated { get; set; }
+
+    private Tarea task = new Tarea();
+    private List<Project> projects = new List<Project>();
+    private bool showSuggestions = false;
+    private List<string> suggestions = new List<string>();
+    private string searchQuery = "";
+    private List<string> data = new List<string>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        projects = await ApiService.GetProjects();
+        data = projects.Select(p => p.Name).ToList();
+        searchQuery = "";
+    }
+    public async void Show(Tarea task)
+    {
+        this.task = task;
+        await JS.InvokeVoidAsync("showModal", "taskModal");
+    }
+
+    private async Task HandleSubmit()
+    {
+        // Lógica para actualizar la tarea
+        if (task.Id == 0)
+        {
+            TareaSaveDto data = new TareaSaveDto();
+            data.Title = task.Title;
+            data.Description = task.Description;
+            data.Proyecto = searchQuery;
+            await ApiService.CreateTask(data);
+        }
+        else
+        {
+            TareaUpdateDto dataupd = new TareaUpdateDto();
+            dataupd.Status = task.Status;
+            await ApiService.UpdateTask(dataupd, task.Id);
+
+        }
+        await JS.InvokeVoidAsync("hideModal", "taskModal");
+    }
+
+    private async Task OnInput(ChangeEventArgs e)
+    {
+        searchQuery = e.Value.ToString();
+        
+        if (!string.IsNullOrEmpty(searchQuery))
+        {
+            suggestions = await AutocompleteService.GetSuggestionsAsync(searchQuery, data);
+            showSuggestions = suggestions.Any();
+        }
+        else
+        {
+            suggestions.Clear();
+            showSuggestions = false;
+        }
+    }
+    private async Task Hide()
+    {
+        await JS.InvokeVoidAsync("hideModal", "taskModal");
+    }
+    private void SelectSuggestion(string suggestion)
+    {
+        searchQuery = suggestion;
+        suggestions.Clear();
+        showSuggestions = false;
+    }
+}
